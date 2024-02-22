@@ -16,111 +16,99 @@
   </head>
   <body class="bg-gray-600">
     <div>
-      <div class="bg-gray-100 ring-1">
-        <div class="py-4">
-          <header
-            class="md:w-[1080px] mx-auto flex justify-between items-center"
-          >
-            <h2 class="text-2xl text-blue-500 cursor-pointer">Brand</h2>
-            <ul class="flex md:gap-x-16 text-xl">
-              <li class="hover:text-blue-800 transition-all duration-00">
-                <a href="#">Home</a>
-              </li>
-              <li class="hover:text-blue-800 transition-all duration-00">
-                <a href="#">About</a>
-              </li>
-              <li class="hover:text-blue-800 transition-all duration-00">
-                <div class="relative group">
-                  <a href="#">Courses</a>
+      <div class="bg-gray-100">
+        <div class="md:py-4 py-2 w-full">
+          <header class="container px-3 flex justify-between items-center">
+            <h2 class="md:text-2xl text-base text-blue-500 cursor-pointer">
+              Brand
+            </h2>
+            <nav class="hidden md:block">
+              <ul class="md:gap-x-16 gap-x-2 md:flex block">
+                <li
+                  class="hover:text-blue-800 transition-all duration-00 sm:text-xl text-sm"
+                >
+                  <a href="#">Home</a>
+                </li>
+                <li
+                  class="hover:text-blue-800 transition-all duration-00 sm:text-xl text-sm"
+                >
+                  <a href="#">About</a>
+                </li>
+                <li
+                  class="hover:text-blue-800 transition-all duration-00 sm:text-xl text-sm"
+                >
+                  <div class="relative group">
+                    <a href="#">Courses</a>
+                    <!-- added -->
+                    <ul
+                      class="absolute hidden bg-gray-100 ring-1 rounded-sm w-fit shadow-md group-hover:block"
+                    >
+                      <li
+                        class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                      >
+                        <a href="#">Alpha</a>
+                      </li>
+                      <li
+                        class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                      >
+                        <a href="#">Alpha</a>
+                      </li>
+                      <li
+                        class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                      >
+                        <a href="#">Alpha</a>
+                      </li>
+
+                      <li
+                        class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                      >
+                        <!-- added child sub -->
+                        <div class="relative group:">
+                          <a href="#">Alpha last</a>
+                          <ul
+                            class="absolute top-0 left-[13vw] bg-gray-100 ring-1 w-fit rounded-sm shadow-md group-focus:block"
+                          >
+                            <li
+                              class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                            >
+                              dipak
+                            </li>
+                            <li
+                              class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                            >
+                              dipak
+                            </li>
+                            <li
+                              class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                            >
+                              dipak
+                            </li>
+                            <li
+                              class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
+                            >
+                              dipak
+                            </li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
                   <!-- added -->
-                  <ul
-                    class="absolute hidden bg-gray-100 ring-1 rounded-sm w-[10vw] shadow-md group-hover:block"
-                  >
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <a href="#">Alpha</a>
-                    </li>
-                    <li
-                      class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                    >
-                      <!-- added child sub -->
-                      <div class="relative group:">
-                        <a href="#">Alpha last</a>
-                        <ul
-                          class="absolute top-0 left-28 bg-gray-100 ring-1 rounded-sm w-[10vw] shadow-md group-focus:block"
-                        >
-                          <li
-                            class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                          >
-                            dipak
-                          </li>
-                          <li
-                            class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                          >
-                            dipak
-                          </li>
-                          <li
-                            class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                          >
-                            dipak
-                          </li>
-                          <li
-                            class="bg-blue-500 py-1 hover:bg-blue-300 text-white px-5"
-                          >
-                            dipak
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <!-- added -->
-              </li>
-              <li class="hover:text-blue-800 transition-all duration-00">
-                <a href="#">Blog</a>
-              </li>
-              <li class="hover:text-blue-800 transition-all duration-00">
-                <a href="#">Contact</a>
-              </li>
-            </ul>
+                </li>
+                <li
+                  class="hover:text-blue-800 transition-all duration-00 sm:text-xl text-sm"
+                >
+                  <a href="#">Blog</a>
+                </li>
+                <li
+                  class="hover:text-blue-800 transition-all duration-00 sm:text-xl text-sm"
+                >
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
             <i
-              class="fa-solid fa-bars text-xl text-blue-500 cursor-pointer"
+              class="fa-solid fa-bars md:text-xl text-base text-blue-500 cursor-pointer"
             ></i>
           </header>
         </div>
